@@ -1,0 +1,90 @@
+.content-holder
+{
+  position: relative;
+}
+.content-holder ul
+{
+  list-style: none;
+}
+/* for facebook hedading */
+.facbook
+{
+  background-color:#F0F2F5;
+  float:left;
+  height:500px;
+  width:50%;
+  text-align: center;
+  justify-content: center;
+position: relative;
+
+}
+.facbook ul {
+  position:absolute;
+  top:30%;
+  left:30%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.forfont
+{
+  font-size:70px;
+  font-weight: bold;
+  color: #1877F2;
+}
+/* for form */
+.form
+{
+  height:500px;
+  width:50%;
+  background-color:#F0F2F5;
+  float:right;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+.form-container
+{
+  background-color:#FFFFFF;
+  height: 300px;
+  width:400px;
+  position:absolute;
+  top:20%;
+  /* left:10%; */
+  text-align: center;
+  border-radius:5px;
+  box-shadow:5px 5px gainsboro;
+  cursor: pointer;
+}
+
+
+.form-container input
+{
+height:50px;
+width:350px;  
+position: relative;
+right: 20px;
+top:10px;
+border-radius:5px;
+border:1px solid gainsboro;
+}
+.login-btn:hover
+{
+  
+  box-shadow:3px 3px #7faeff ;
+}
+.login-btn
+{
+  background-color: #1877F2;
+  height:50px;
+width:350px;  
+position: relative;
+right: 20px;
+top:10px;
+border-radius:10px;
+border: 0px;
+color: aliceblue;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size:20px;
+
+}
